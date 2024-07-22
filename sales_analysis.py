@@ -32,7 +32,7 @@ dag = DAG(
     'sales_analysis',
     default_args=default_args,
     description='A DAG for analyzing sales data',
-    schedule_interval='@hourly',
+    schedule_interval='@daily',
     catchup=False,
 )
 
